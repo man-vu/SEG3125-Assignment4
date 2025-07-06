@@ -578,7 +578,7 @@ const CoursesPage: React.FC = () => {
 
         {/* Enhanced CTA Section with Connection Language */}
         <div className="mt-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your IELTS Journey? 🌟</h2>
+                          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Coding Journey? 🌟</h2>
           <p className="text-lg mb-6 opacity-90">
             We'd love to hear about your experience! Join our community of successful learners and share your story with us.
           </p>

@@ -9,7 +9,7 @@ const OrderConfirmationPage: React.FC = () => {
   const navigate = useNavigate();
   
   // Generate a random order number
-  const orderNumber = `IELTS-${Math.floor(Math.random() * 1000000).toString().padStart(6, '0')}`;
+  const orderNumber = `WEBDEV-${Math.floor(Math.random() * 1000000).toString().padStart(6, '0')}`;
   const orderDate = new Date().toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
@@ -92,7 +92,7 @@ const OrderConfirmationPage: React.FC = () => {
           {/* Support Info */}
           <div className="text-gray-600 dark:text-gray-400 text-sm">
             <p>Have questions about your order?</p>
-            <p>Contact our support team at <a href="mailto:support@ieltsacademy.com" className="text-purple-600 dark:text-purple-400 hover:underline">support@ieltsacademy.com</a></p>
+                            <p>Contact our support team at <a href="mailto:support@webdevacademy.com" className="text-purple-600 dark:text-purple-400 hover:underline">support@webdevacademy.com</a></p>
           </div>
           
           {/* Continue Shopping */}

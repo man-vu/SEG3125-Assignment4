@@ -52,7 +52,7 @@ const CourseDetailsPage: React.FC = () => {
                 userAvatar: '',
                 rating: 5,
                 date: '2025-05-15',
-                comment: 'This course was incredibly helpful for my IELTS preparation. I improved my score from 6.5 to 8.0!'
+                comment: 'This course was incredibly helpful for my web development journey. I went from beginner to building full-stack applications!'
               },
               {
                 id: '2',

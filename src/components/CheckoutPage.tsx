@@ -254,7 +254,7 @@ const CheckoutPage: React.FC = () => {
             Complete Your Purchase
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
-            You're almost there! Just a few more steps to access your IELTS courses.
+                            You're almost there! Just a few more steps to access your web development courses.
           </p>
         </div>
       </div>
